@@ -1,0 +1,14 @@
+{
+  "title": "Creatng blog with React.js and Next.js and deploy to github pages",
+  "date": "Feb 12, 2019,",
+  "author": "Farhan Tahir",
+  "category": "javascript",
+  "url": "/post/creating-blog-with-reactjs-and-nextjs-and-deploy-to-github-pages",
+  "bodyContent": "We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.\n\nLet's do it.",
+  "bodyHtml": "<p>We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.</p>\n<p>Let's do it.</p>\n",
+  "dir": "content/_posts",
+  "base": "creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json",
+  "ext": ".json",
+  "sourceBase": "creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.md",
+  "sourceExt": ".md"
+}

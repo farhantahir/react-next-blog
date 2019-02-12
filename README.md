@@ -1,0 +1,1 @@
+Personal Blog developed using Next.js an React.js
