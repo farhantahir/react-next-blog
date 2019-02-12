@@ -1,23 +1,23 @@
 {
   "fileMap": {
-    "content/_posts/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json": {
-      "title": "Create a markdown based blog with React.js, Next.js and deploy it to github pages",
-      "date": "Feb 12, 2019,",
+    "content/_posts/create-a-markdown-based-blog-with-Reactjs-Nextjs.json": {
+      "title": "Create a markdown based blog with React.js, Next.js",
+      "date": "Feb 12, 2019",
       "author": "Farhan Tahir",
       "category": "javascript",
-      "url": "/post/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages",
+      "url": "create-a-markdown-based-blog-with-Reactjs-Nextjs",
       "dir": "content/_posts",
-      "base": "create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json",
+      "base": "create-a-markdown-based-blog-with-Reactjs-Nextjs.json",
       "ext": ".json",
-      "sourceBase": "create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.md",
+      "sourceBase": "create-a-markdown-based-blog-with-Reactjs-Nextjs.md",
       "sourceExt": ".md"
     },
     "content/_posts/understanding-server-side-rendering.json": {
       "title": "Understanding Server Side Rendering",
-      "date": "Feb 12, 2019,",
+      "date": "Feb 12, 2019",
       "author": "Farhan Tahir",
       "category": "javascript",
-      "url": "/post/understanding-server-side-rendering",
+      "url": "understanding-server-side-rendering",
       "dir": "content/_posts",
       "base": "understanding-server-side-rendering.json",
       "ext": ".json",
@@ -26,7 +26,7 @@
     }
   },
   "sourceFileArray": [
-    "content/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.md",
+    "content/create-a-markdown-based-blog-with-Reactjs-Nextjs.md",
     "content/understanding-server-side-rendering.md"
   ]
 }

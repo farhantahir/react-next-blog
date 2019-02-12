@@ -615,7 +615,10 @@ var mobileMenu = function mobileMenu() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/fakhar/projects/farhantahirblog/components/postItem.js";
+
 
 
 var postItem = function postItem(_ref) {
@@ -624,96 +627,161 @@ var postItem = function postItem(_ref) {
     className: "post post-1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 2
+      lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     className: "entry-header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 5
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "entry-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: post.url,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, post.title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "entry-meta",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/post?p=".concat(post.url),
+    as: "/post/".concat(post.url),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, post.title))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "entry-meta",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "post-category",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: this
   }, post.category)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "post-date",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
     className: "entry-date",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 12
     },
     __self: this
-  }, post.date))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, post.date)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "post-author",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     },
     __self: this
-  }, post.author)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 14
+    },
+    __self: this
+  }, post.author))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
     },
     __self: this
   }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (postItem);
+
+/***/ }),
+
+/***/ "./content/_posts sync recursive ^\\.\\/.*\\.json$":
+/*!********************************************!*\
+  !*** ./content/_posts sync ^\.\/.*\.json$ ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json": "./content/_posts/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json",
+	"./creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json": "./content/_posts/creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json",
+	"./summary.json": "./content/_posts/summary.json",
+	"./understanding-server-side-rendering.json": "./content/_posts/understanding-server-side-rendering.json"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./content/_posts sync recursive ^\\.\\/.*\\.json$";
+
+/***/ }),
+
+/***/ "./content/_posts/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json":
+/*!**************************************************************************************************************!*\
+  !*** ./content/_posts/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json ***!
+  \**************************************************************************************************************/
+/*! exports provided: title, date, author, category, url, bodyContent, bodyHtml, dir, base, ext, sourceBase, sourceExt, default */
+/***/ (function(module) {
+
+module.exports = {"title":"Create a markdown based blog with React.js, Next.js and deploy it to github pages","date":"Feb 12, 2019","author":"Farhan Tahir","category":"javascript","url":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages","bodyContent":"We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.\n\nLet's do it.","bodyHtml":"<p>We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.</p>\n<p>Let's do it.</p>\n","dir":"content/_posts","base":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json","ext":".json","sourceBase":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.md","sourceExt":".md"};
+
+/***/ }),
+
+/***/ "./content/_posts/creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json":
+/*!************************************************************************************************!*\
+  !*** ./content/_posts/creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json ***!
+  \************************************************************************************************/
+/*! exports provided: title, date, author, category, url, bodyContent, bodyHtml, dir, base, ext, sourceBase, sourceExt, default */
+/***/ (function(module) {
+
+module.exports = {"title":"Creatng blog with React.js and Next.js and deploy to github pages","date":"Feb 12, 2019,","author":"Farhan Tahir","category":"javascript","url":"/post/creating-blog-with-reactjs-and-nextjs-and-deploy-to-github-pages","bodyContent":"We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.\n\nLet's do it.","bodyHtml":"<p>We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.</p>\n<p>Let's do it.</p>\n","dir":"content/_posts","base":"creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json","ext":".json","sourceBase":"creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.md","sourceExt":".md"};
 
 /***/ }),
 
@@ -724,7 +792,18 @@ var postItem = function postItem(_ref) {
 /*! exports provided: fileMap, sourceFileArray, default */
 /***/ (function(module) {
 
-module.exports = {"fileMap":{"content/_posts/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json":{"title":"Create a markdown based blog with React.js, Next.js and deploy it to github pages","date":"Feb 12, 2019,","author":"Farhan Tahir","category":"javascript","url":"/post/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages","dir":"content/_posts","base":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json","ext":".json","sourceBase":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.md","sourceExt":".md"},"content/_posts/understanding-server-side-rendering.json":{"title":"Understanding Server Side Rendering","date":"Feb 12, 2019,","author":"Farhan Tahir","category":"javascript","url":"/post/understanding-server-side-rendering","dir":"content/_posts","base":"understanding-server-side-rendering.json","ext":".json","sourceBase":"understanding-server-side-rendering.md","sourceExt":".md"}},"sourceFileArray":["content/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.md","content/understanding-server-side-rendering.md"]};
+module.exports = {"fileMap":{"content/_posts/understanding-server-side-rendering.json":{"title":"Understanding Server Side Rendering","date":"Feb 12, 2019,","author":"Farhan Tahir","category":"javascript","url":"understanding-server-side-rendering","dir":"content/_posts","base":"understanding-server-side-rendering.json","ext":".json","sourceBase":"understanding-server-side-rendering.md","sourceExt":".md"},"content/_posts/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json":{"title":"Create a markdown based blog with React.js, Next.js and deploy it to github pages","date":"Feb 12, 2019,","author":"Farhan Tahir","category":"javascript","url":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages","dir":"content/_posts","base":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json","ext":".json","sourceBase":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.md","sourceExt":".md"}},"sourceFileArray":["content/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.md","content/understanding-server-side-rendering.md"]};
+
+/***/ }),
+
+/***/ "./content/_posts/understanding-server-side-rendering.json":
+/*!*****************************************************************!*\
+  !*** ./content/_posts/understanding-server-side-rendering.json ***!
+  \*****************************************************************/
+/*! exports provided: title, date, author, category, url, bodyContent, bodyHtml, dir, base, ext, sourceBase, sourceExt, default */
+/***/ (function(module) {
+
+module.exports = {"title":"Understanding Server Side Rendering","date":"Feb 12, 2019,","author":"Farhan Tahir","category":"javascript","url":"understanding-server-side-rendering","bodyContent":"# What does it mean by Server Side Rendering (SSR) ?\n\nTo understand server side rendering we'll first need to see what is client side rendering (CSR).","bodyHtml":"<h1>What does it mean by Server Side Rendering (SSR) ?</h1>\n<p>To understand server side rendering we'll first need to see what is client side rendering (CSR).</p>\n","dir":"content/_posts","base":"understanding-server-side-rendering.json","ext":".json","sourceBase":"understanding-server-side-rendering.md","sourceExt":".md"};
 
 /***/ }),
 
@@ -732,13 +811,14 @@ module.exports = {"fileMap":{"content/_posts/create-a-markdown-based-blog-with-R
 /*!************************!*\
   !*** ./lib/content.js ***!
   \************************/
-/*! exports provided: getPosts, getLatestsPosts */
+/*! exports provided: getPosts, getLatestsPosts, getPost */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getPosts", function() { return getPosts; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getLatestsPosts", function() { return getLatestsPosts; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getPost", function() { return getPost; });
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _content_posts_summary_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../content/_posts/summary.json */ "./content/_posts/summary.json");
@@ -766,6 +846,11 @@ function getLatestsPosts() {
   }).map(function (file) {
     return _content_posts_summary_json__WEBPACK_IMPORTED_MODULE_1__.fileMap[file];
   }).sort(sortByDate).slice(0, limit);
+}
+function getPost(p) {
+  if (_content_posts_summary_json__WEBPACK_IMPORTED_MODULE_1__ && _content_posts_summary_json__WEBPACK_IMPORTED_MODULE_1__.fileMap && _content_posts_summary_json__WEBPACK_IMPORTED_MODULE_1__.fileMap["content/_posts/".concat(p, ".json")]) {
+    return __webpack_require__("./content/_posts sync recursive ^\\.\\/.*\\.json$")("./".concat(p, ".json"));
+  }
 }
 
 /***/ }),

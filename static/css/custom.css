@@ -241,6 +241,7 @@ figure {
 }
 
 .entry-content {
+	padding-top: 30px;
 	font-size: 18px;
 	line-height: 1.9;
 	font-weight: 300;
@@ -252,6 +253,7 @@ figure {
 .post-author {
 	position: relative;
 	padding-right: 15px;
+	color: #000;
 }
 
 .post-category::after,

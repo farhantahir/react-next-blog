@@ -1,9 +1,9 @@
 ---
 title: Understanding Server Side Rendering
-date: Feb 12, 2019,
+date: Feb 12, 2019
 author: Farhan Tahir
 category: javascript
-url: /post/understanding-server-side-rendering
+url: understanding-server-side-rendering
 ---
 
 # What does it mean by Server Side Rendering (SSR) ?
