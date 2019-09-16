@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/fakhar/projects/farhantahirblog/components/aside.js";
+var _jsxFileName = "/Users/farhan/projects/react-next-blog/components/aside.js";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
@@ -248,7 +248,7 @@ var _jsxFileName = "/Users/fakhar/projects/farhantahirblog/components/aside.js";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/fakhar/projects/farhantahirblog/components/footer.js";
+var _jsxFileName = "/Users/farhan/projects/react-next-blog/components/footer.js";
 
 
 var footer = function footer() {
@@ -307,7 +307,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/fakhar/projects/farhantahirblog/components/header.js";
+var _jsxFileName = "/Users/farhan/projects/react-next-blog/components/header.js";
 
 
 
@@ -505,7 +505,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header */ "./components/header.js");
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ "./components/footer.js");
 /* harmony import */ var _mobileMenu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mobileMenu */ "./components/mobileMenu.js");
-var _jsxFileName = "/Users/fakhar/projects/farhantahirblog/components/layout.js";
+var _jsxFileName = "/Users/farhan/projects/react-next-blog/components/layout.js";
 
 
 
@@ -516,13 +516,13 @@ var Layout = function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -530,7 +530,7 @@ var Layout = function Layout(props) {
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -538,7 +538,7 @@ var Layout = function Layout(props) {
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -546,7 +546,7 @@ var Layout = function Layout(props) {
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -554,32 +554,47 @@ var Layout = function Layout(props) {
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "stylesheet",
+    href: "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/default.min.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    src: "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 18
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content-body",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 19
     },
     __self: this
   }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_mobileMenu__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }));
@@ -600,7 +615,7 @@ var Layout = function Layout(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/fakhar/projects/farhantahirblog/components/mobileMenu.js";
+var _jsxFileName = "/Users/farhan/projects/react-next-blog/components/mobileMenu.js";
 
 
 var mobileMenu = function mobileMenu() {
@@ -710,7 +725,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/fakhar/projects/farhantahirblog/components/postItem.js";
+var _jsxFileName = "/Users/farhan/projects/react-next-blog/components/postItem.js";
 
 
 
@@ -827,8 +842,8 @@ var postItem = function postItem(_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json": "./content/_posts/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json",
-	"./creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json": "./content/_posts/creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json",
+	"./create-a-markdown-based-blog-with-Reactjs-Nextjs.json": "./content/_posts/create-a-markdown-based-blog-with-Reactjs-Nextjs.json",
+	"./learning-react-hooks-and-refactoring-class-component.json": "./content/_posts/learning-react-hooks-and-refactoring-class-component.json",
 	"./summary.json": "./content/_posts/summary.json",
 	"./understanding-server-side-rendering.json": "./content/_posts/understanding-server-side-rendering.json"
 };
@@ -856,25 +871,25 @@ webpackContext.id = "./content/_posts sync recursive ^\\.\\/.*\\.json$";
 
 /***/ }),
 
-/***/ "./content/_posts/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json":
-/*!**************************************************************************************************************!*\
-  !*** ./content/_posts/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json ***!
-  \**************************************************************************************************************/
+/***/ "./content/_posts/create-a-markdown-based-blog-with-Reactjs-Nextjs.json":
+/*!******************************************************************************!*\
+  !*** ./content/_posts/create-a-markdown-based-blog-with-Reactjs-Nextjs.json ***!
+  \******************************************************************************/
 /*! exports provided: title, date, author, category, url, bodyContent, bodyHtml, dir, base, ext, sourceBase, sourceExt, default */
 /***/ (function(module) {
 
-module.exports = {"title":"Create a markdown based blog with React.js, Next.js and deploy it to github pages","date":"Feb 12, 2019","author":"Farhan Tahir","category":"javascript","url":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages","bodyContent":"We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.\n\nLet's do it.","bodyHtml":"<p>We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.</p>\n<p>Let's do it.</p>\n","dir":"content/_posts","base":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json","ext":".json","sourceBase":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.md","sourceExt":".md"};
+module.exports = {"title":"Create a markdown based blog with React.js, Next.js","date":"Feb 12, 2019","author":"Farhan Tahir","category":"javascript","url":"create-a-markdown-based-blog-with-Reactjs-Nextjs","bodyContent":"We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.\n\nLet's do it.","bodyHtml":"<p>We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.</p>\n<p>Let's do it.</p>\n","dir":"content/_posts","base":"create-a-markdown-based-blog-with-Reactjs-Nextjs.json","ext":".json","sourceBase":"create-a-markdown-based-blog-with-Reactjs-Nextjs.md","sourceExt":".md"};
 
 /***/ }),
 
-/***/ "./content/_posts/creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json":
-/*!************************************************************************************************!*\
-  !*** ./content/_posts/creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json ***!
-  \************************************************************************************************/
+/***/ "./content/_posts/learning-react-hooks-and-refactoring-class-component.json":
+/*!**********************************************************************************!*\
+  !*** ./content/_posts/learning-react-hooks-and-refactoring-class-component.json ***!
+  \**********************************************************************************/
 /*! exports provided: title, date, author, category, url, bodyContent, bodyHtml, dir, base, ext, sourceBase, sourceExt, default */
 /***/ (function(module) {
 
-module.exports = {"title":"Creatng blog with React.js and Next.js and deploy to github pages","date":"Feb 12, 2019,","author":"Farhan Tahir","category":"javascript","url":"/post/creating-blog-with-reactjs-and-nextjs-and-deploy-to-github-pages","bodyContent":"We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.\n\nLet's do it.","bodyHtml":"<p>We can creating a markdown based blog using React.js, Next.js and deploy it to github pages for free.</p>\n<p>Let's do it.</p>\n","dir":"content/_posts","base":"creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.json","ext":".json","sourceBase":"creating-blog-with-react.js-and-next.js-and-deploy-to-github-pages.md","sourceExt":".md"};
+module.exports = {"title":"Learn React Hooks and refactoring Class Component","date":"Jul 07, 2019","author":"Farhan Tahir","category":"react","url":"learning-react-hooks-and-refactoring-class-component","bodyContent":"With React 16.8, we get major imporements and enhancments in functional components. Before that, functional components were used for presentaional purposes and if you need state logic in your components or if you need show/update data from/to Redux etc. you needed to have Class based components.\n\n\nOne of major change in React 16.8 is ability of functions to be able to use states using hooks.\n\n\nHooks are simple functions which enables your component to use special React features, like states, lifecycle methods, connecting to stores etc.\n\nIn following example We are using `useState` hooks from react to use state withing functional component.\n\n```javascript\nimport React, { useState } from \"react\";\n\nconst AlertMsg = () => {\n  const [showMsg, setShowMsg] = useState(false);\n  \n  return (\n    <div>\n      <button onClick={() => setShowMsg(true)}>Show's a msg on click</button>\n      {showMsg && <p>I'm a message</p>}\n    </div>\n  );\n};\n\nexport defaul AlertMsg;\n```","bodyHtml":"<p>With React 16.8, we get major imporements and enhancments in functional components. Before that, functional components were used for presentaional purposes and if you need state logic in your components or if you need show/update data from/to Redux etc. you needed to have Class based components.</p>\n<p>One of major change in React 16.8 is ability of functions to be able to use states using hooks.</p>\n<p>Hooks are simple functions which enables your component to use special React features, like states, lifecycle methods, connecting to stores etc.</p>\n<p>In following example We are using <code>useState</code> hooks from react to use state withing functional component.</p>\n<pre><code class=\"hljs\"><span class=\"hljs-keyword\">import</span> React, { useState } <span class=\"hljs-keyword\">from</span> <span class=\"hljs-string\">\"react\"</span>;\n\n<span class=\"hljs-keyword\">const</span> AlertMsg = <span class=\"hljs-function\"><span class=\"hljs-params\">()</span> =&gt;</span> {\n  <span class=\"hljs-keyword\">const</span> [showMsg, setShowMsg] = useState(<span class=\"hljs-literal\">false</span>);\n  \n  <span class=\"hljs-keyword\">return</span> (\n    <span class=\"xml\"><span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">div</span>&gt;</span>\n      <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">button</span> <span class=\"hljs-attr\">onClick</span>=<span class=\"hljs-string\">{()</span> =&gt;</span> setShowMsg(true)}&gt;Show's a msg on click<span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">button</span>&gt;</span>\n      {showMsg &amp;&amp; <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">p</span>&gt;</span>I'm a message<span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">p</span>&gt;</span>}\n    <span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">div</span>&gt;</span></span>\n  );\n};\n\n<span class=\"hljs-keyword\">export</span> defaul AlertMsg;</code></pre>","dir":"content/_posts","base":"learning-react-hooks-and-refactoring-class-component.json","ext":".json","sourceBase":"learning-react-hooks-and-refactoring-class-component.md","sourceExt":".md"};
 
 /***/ }),
 
@@ -885,7 +900,7 @@ module.exports = {"title":"Creatng blog with React.js and Next.js and deploy to 
 /*! exports provided: fileMap, sourceFileArray, default */
 /***/ (function(module) {
 
-module.exports = {"fileMap":{"content/_posts/understanding-server-side-rendering.json":{"title":"Understanding Server Side Rendering","date":"Feb 12, 2019,","author":"Farhan Tahir","category":"javascript","url":"understanding-server-side-rendering","dir":"content/_posts","base":"understanding-server-side-rendering.json","ext":".json","sourceBase":"understanding-server-side-rendering.md","sourceExt":".md"},"content/_posts/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json":{"title":"Create a markdown based blog with React.js, Next.js and deploy it to github pages","date":"Feb 12, 2019,","author":"Farhan Tahir","category":"javascript","url":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages","dir":"content/_posts","base":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.json","ext":".json","sourceBase":"create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.md","sourceExt":".md"}},"sourceFileArray":["content/create-a-markdown-based-blog-with-React.js-Next.js-and-deploy-it-to-github-pages.md","content/understanding-server-side-rendering.md"]};
+module.exports = {"fileMap":{"content/_posts/create-a-markdown-based-blog-with-Reactjs-Nextjs.json":{"title":"Create a markdown based blog with React.js, Next.js","date":"Feb 12, 2019","author":"Farhan Tahir","category":"javascript","url":"create-a-markdown-based-blog-with-Reactjs-Nextjs","dir":"content/_posts","base":"create-a-markdown-based-blog-with-Reactjs-Nextjs.json","ext":".json","sourceBase":"create-a-markdown-based-blog-with-Reactjs-Nextjs.md","sourceExt":".md"},"content/_posts/learning-react-hooks-and-refactoring-class-component.json":{"title":"Learn React Hooks and refactoring Class Component","date":"Jul 07, 2019","author":"Farhan Tahir","category":"react","url":"learning-react-hooks-and-refactoring-class-component","dir":"content/_posts","base":"learning-react-hooks-and-refactoring-class-component.json","ext":".json","sourceBase":"learning-react-hooks-and-refactoring-class-component.md","sourceExt":".md"},"content/_posts/understanding-server-side-rendering.json":{"title":"Understanding Server Side Rendering","date":"Feb 12, 2019","author":"Farhan Tahir","category":"javascript","url":"understanding-server-side-rendering","dir":"content/_posts","base":"understanding-server-side-rendering.json","ext":".json","sourceBase":"understanding-server-side-rendering.md","sourceExt":".md"}},"sourceFileArray":["content/create-a-markdown-based-blog-with-Reactjs-Nextjs.md","content/learning-react-hooks-and-refactoring-class-component.md","content/understanding-server-side-rendering.md"]};
 
 /***/ }),
 
@@ -896,7 +911,7 @@ module.exports = {"fileMap":{"content/_posts/understanding-server-side-rendering
 /*! exports provided: title, date, author, category, url, bodyContent, bodyHtml, dir, base, ext, sourceBase, sourceExt, default */
 /***/ (function(module) {
 
-module.exports = {"title":"Understanding Server Side Rendering","date":"Feb 12, 2019,","author":"Farhan Tahir","category":"javascript","url":"understanding-server-side-rendering","bodyContent":"# What does it mean by Server Side Rendering (SSR) ?\n\nTo understand server side rendering we'll first need to see what is client side rendering (CSR).","bodyHtml":"<h1>What does it mean by Server Side Rendering (SSR) ?</h1>\n<p>To understand server side rendering we'll first need to see what is client side rendering (CSR).</p>\n","dir":"content/_posts","base":"understanding-server-side-rendering.json","ext":".json","sourceBase":"understanding-server-side-rendering.md","sourceExt":".md"};
+module.exports = {"title":"Understanding Server Side Rendering","date":"Feb 12, 2019","author":"Farhan Tahir","category":"javascript","url":"understanding-server-side-rendering","bodyContent":"# What does it mean by Server Side Rendering (SSR) ?\n\nTo understand server side rendering we'll first need to see what is client side rendering (CSR).","bodyHtml":"<h1>What does it mean by Server Side Rendering (SSR) ?</h1>\n<p>To understand server side rendering we'll first need to see what is client side rendering (CSR).</p>\n","dir":"content/_posts","base":"understanding-server-side-rendering.json","ext":".json","sourceBase":"understanding-server-side-rendering.md","sourceExt":".md"};
 
 /***/ }),
 
@@ -1952,7 +1967,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_aside__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/aside */ "./components/aside.js");
 /* harmony import */ var _components_postItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/postItem */ "./components/postItem.js");
 /* harmony import */ var _lib_content__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/content */ "./lib/content.js");
-var _jsxFileName = "/Users/fakhar/projects/farhantahirblog/pages/index.js";
+var _jsxFileName = "/Users/farhan/projects/react-next-blog/pages/index.js";
 
 
 
@@ -2058,14 +2073,14 @@ var _jsxFileName = "/Users/fakhar/projects/farhantahirblog/pages/index.js";
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/fakhar/projects/farhantahirblog/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/farhan/projects/react-next-blog/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
