@@ -1,25 +1,34 @@
-import Head from "next/head";
+import Head from 'next/head';
+import Container from '@material-ui/core/Container';
+import  Dividers from '@material-ui/core/Divider';
+import { makeStyles } from '@material-ui/core/styles';
 
-import Header from "./header";
-import Footer from "./footer";
-import MobileMenu from "./mobileMenu";
 
-const Layout = props => {
+import Header from './header';
+import Footer from './footer';
+
+const useStyles = makeStyles(() => ({
+  container: {
+    marginTop: '30px'
+  }
+}));
+
+const Layout = ({ children }) => {
+  const classes = useStyles();
   return (
-    <div>
+    <Container maxWidth='md' className={classes.container}>
       <Head>
-        <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/static/css/pace.css" rel="stylesheet" />
-        <link href="/static/css/ionicons.min.css" rel="stylesheet" />
-        <link href="/static/css/custom.css" rel="stylesheet" />
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/default.min.css" />
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+        <title>Farhan Tahir - Full Stack JS Developer</title>
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/a11y-dark.min.css' rel='stylesheet'/>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/javascript.min.js'></script>
+        <link rel="shortcut icon" type="image/png" href="/static/favicon.png"/>
       </Head>
       <Header />
-      <div className="content-body">{props.children}</div>
+      <Dividers />
+      <div>{children}</div>
       <Footer />
-      <MobileMenu />
-    </div>
+    </Container>
   );
 };
 

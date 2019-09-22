@@ -1,13 +1,23 @@
-const footer = () => {
-    return <footer id="site-footer">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <p className="copyright">&copy; 2019 @farhantahir891</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-}
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
 
-export default footer
+const useStyles = makeStyles({
+  footer: {
+    marginTop: '50px',
+    marginBottom: '50px'
+  }
+});
+
+const footer = () => {
+  const classes = useStyles();
+  return (
+    <Grid container className={classes.footer}>
+      <Grid item>
+        <Typography as='span' variant='caption'>2019 @farhantahir891</Typography>
+      </Grid>
+    </Grid>
+  );
+};
+
+export default footer;

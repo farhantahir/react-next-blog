@@ -1,41 +1,79 @@
-import Link from 'next/link'
+import React from 'react';
+import { Grid, Link, Typography, makeStyles, Tooltip } from '@material-ui/core';
+import {
+  Linkedin,
+  Twitter,
+  GithubBox,
+  StackOverflow,
+  FileAccount
+} from 'mdi-material-ui';
+
+const useStyles = makeStyles(() => ({
+  profileIcon: {
+    marginLeft: '10px'
+  }
+}));
 
 const header = () => {
-    return <div className="container">
-        <header id="site-header">
-            <div className="row">
-                <div className="col-md-4 col-sm-5 col-xs-8">
-                    <div className="logo">
-                        <h1><a href="index.html"><b>Farhan Tahir</b></a></h1>
-                    </div>
-                </div>
-                <div className="col-md-8 col-sm-7 col-xs-4">
-                    <nav className="main-nav" role="navigation">
-                        <div className="navbar-header">
-                            <button type="button" id="trigger-overlay" className="navbar-toggle">
-                                <span className="ion-navicon"></span>
-                            </button>
-                        </div>
+  const classes = useStyles();
+  return (
+    <Grid container>
+      <Grid item md={4}>
+        <Typography component='div' as='h5' variant='h5'>
+          <Link href='/' color='inherit' underline='none'>
+            Farhan Tahir
+          </Link>
+        </Typography>
+      </Grid>
+      <Grid item md={8}>
+        <Grid container justify='flex-end'>
+          <Grid item>
+            <Tooltip title='LinkedIn'>
+              <Link
+                className={classes.profileIcon}
+                href='https://www.linkedin.com/in/mfarhantahir/'
+              >
+                <Linkedin />
+              </Link>
+            </Tooltip>
+            <Tooltip title='Twitter'>
+              <Link
+                className={classes.profileIcon}
+                href='https://www.twitter.com/mfarhantahir891'
+              >
+                <Twitter />
+              </Link>
+            </Tooltip>
+            <Tooltip title='Github'>
+              <Link
+                className={classes.profileIcon}
+                href='https://www.github.com/farhantahir'
+              >
+                <GithubBox />
+              </Link>
+            </Tooltip>
+            <Tooltip title='Stackoverflow'>
+              <Link
+                className={classes.profileIcon}
+                href='https://stackoverflow.com/users/4770835/farhan-tahir'
+              >
+                <StackOverflow />
+              </Link>
+            </Tooltip>
+            <Tooltip title='Download Resume'>
+              <Link
+                className={classes.profileIcon}
+                target='_blank'
+                href='https://drive.google.com/file/d/1z0ObwopD0-4Z-So4Dh-ero0qClGMko_B/view?usp=sharing'
+              >
+                <FileAccount />
+              </Link>
+            </Tooltip>
+          </Grid>
+        </Grid>
+      </Grid>
+    </Grid>
+  );
+};
 
-                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul className="nav navbar-nav navbar-right">
-                                <li className="cl-effect-11">
-                                    <Link href="/"><a data-hover="Home">Home</a></Link>
-                                </li>
-                                <li className="cl-effect-11">
-                                    <Link href="/blog"><a data-hover="Blog">Blog</a></Link>
-                                </li>
-                                <li className="cl-effect-11">
-                                    <Link href="/about"><a data-hover="About">About</a></Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-
-                </div>
-            </div>
-        </header>
-    </div>
-}
-
-export default header
+export default header;

@@ -1,36 +1,62 @@
-import { withRouter } from 'next/router'
+import React, { useState, useEffect } from 'react';
+import { withRouter } from 'next/router';
+import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
+import Layout from '../components/layout';
+import { makeStyles } from '@material-ui/core/styles';
+import Link from '@material-ui/core/Link';
+import ArrowLeft from '@material-ui/icons/ArrowLeft';
+import NextLink from 'next/link';
 
-import Layout from '../components/layout'
-import Aside from '../components/aside'
-import Link from 'next/link'
+const useStyles = makeStyles({
+  container: {
+    paddingTop: '50px'
+  },
+  title: {
+    marginTop: '20px'
+  },
+  back: {
+    display: 'flex',
+    justifyItems: 'center',
+    cursor: 'pointer'
+  }
+});
 
-import { getPost } from '../lib/content'
+import { getPost } from '../lib/content';
 
 const post = props => {
-    const p = props.router.query.p
-    const post = getPost(p)
-    return <Layout>
-        <div className="container">
-            <div className="row">
-                <main className="col-md-8">
-                    <article className="post post-1">
-                        <header className="entry-header">
-                            <h1 className="entry-title">{post.title}</h1>
-                            <div className="entry-meta">
-                                <span className="post-category"><a href="#">{post.category}</a></span>
+  const p = props.router.query.p;
+  const post = getPost(p);
+  const classes = useStyles();
+  const html = <div dangerouslySetInnerHTML={{ __html: post.bodyHtml }}></div>;
 
-                                <span className="post-date"><time className="entry-date">February 2, 2013</time></span>
-
-                                <span className="post-author"><Link href="/about"><a>{post.author}</a></Link></span>
-                            </div>
-                        </header>
-                        <div  className="entry-content clearfix" dangerouslySetInnerHTML={{ __html: post.bodyHtml }}></div>
-                    </article>
-                </main>
-                <Aside/>
-            </div>
-        </div>
+  return (
+    <Layout>
+      <Grid container className={classes.container}>
+        <Grid item>
+          <NextLink href='/'>
+            <Link className={classes.back}>
+              <ArrowLeft /> Back{' '}
+            </Link>
+          </NextLink>
+          <Typography
+            as='h4'
+            variant='h4'
+            gutterBottom
+            className={classes.title}
+          >
+            {post.title}
+          </Typography>
+          <Typography as='h6' variant='h6' gutterBottom>
+            {post.date}
+          </Typography>
+          <Typography component='div' variant='body1' gutterBottom>
+            {html}
+          </Typography>
+        </Grid>
+      </Grid>
     </Layout>
-}
+  );
+};
 
-export default withRouter(post)
+export default withRouter(post);
