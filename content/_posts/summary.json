@@ -23,10 +23,23 @@
       "ext": ".json",
       "sourceBase": "understanding-server-side-rendering.md",
       "sourceExt": ".md"
+    },
+    "content/_posts/learning-react-hooks-and-refactoring-class-component.json": {
+      "title": "Learn React Hooks and refactoring Class Component",
+      "date": "Jul 07, 2019",
+      "author": "Farhan Tahir",
+      "category": "react",
+      "url": "learning-react-hooks-and-refactoring-class-component",
+      "dir": "content/_posts",
+      "base": "learning-react-hooks-and-refactoring-class-component.json",
+      "ext": ".json",
+      "sourceBase": "learning-react-hooks-and-refactoring-class-component.md",
+      "sourceExt": ".md"
     }
   },
   "sourceFileArray": [
     "content/create-a-markdown-based-blog-with-Reactjs-Nextjs.md",
+    "content/learning-react-hooks-and-refactoring-class-component.md",
     "content/understanding-server-side-rendering.md"
   ]
 }
