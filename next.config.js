@@ -29,11 +29,9 @@ module.exports = withCSS({
                 }
             }
             return obj
-        }, {}) 
+        }, {})
         return {
-            '/': { page: '/' },
-            '/blog': { page: '/blog' },
-            '/about': { page: '/about' },
+            '/': { page: '/' },            
             ...posts
         }
     }

@@ -114,7 +114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/farhan/projects/react-next-blog/components/PostLink.js";
+var _jsxFileName = "/Users/farhantahir/work/projects/blog/react-next-blog/components/PostLink.js";
 
 
 
@@ -239,7 +239,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/farhan/projects/react-next-blog/components/footer.js";
+var _jsxFileName = "/Users/farhantahir/work/projects/blog/react-next-blog/components/footer.js";
 
 
 
@@ -298,7 +298,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var mdi_material_ui__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! mdi-material-ui */ "mdi-material-ui");
 /* harmony import */ var mdi_material_ui__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(mdi_material_ui__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/farhan/projects/react-next-blog/components/header.js";
+var _jsxFileName = "/Users/farhantahir/work/projects/blog/react-next-blog/components/header.js";
 
 
 
@@ -502,7 +502,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./header */ "./components/header.js");
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./footer */ "./components/footer.js");
-var _jsxFileName = "/Users/farhan/projects/react-next-blog/components/layout.js";
+var _jsxFileName = "/Users/farhantahir/work/projects/blog/react-next-blog/components/layout.js";
 
 
 
@@ -669,7 +669,7 @@ module.exports = {"title":"Learn React Hooks and refactoring Class Component","d
 /*! exports provided: fileMap, sourceFileArray, default */
 /***/ (function(module) {
 
-module.exports = {"fileMap":{"content/_posts/create-a-markdown-based-blog-with-Reactjs-Nextjs.json":{"title":"Create a markdown based blog with React.js, Next.js","date":"Feb 12, 2019","author":"Farhan Tahir","category":"javascript","url":"create-a-markdown-based-blog-with-Reactjs-Nextjs","dir":"content/_posts","base":"create-a-markdown-based-blog-with-Reactjs-Nextjs.json","ext":".json","sourceBase":"create-a-markdown-based-blog-with-Reactjs-Nextjs.md","sourceExt":".md"},"content/_posts/understanding-server-side-rendering.json":{"title":"Understanding Server Side Rendering","date":"Feb 12, 2019","author":"Farhan Tahir","category":"javascript","url":"understanding-server-side-rendering","dir":"content/_posts","base":"understanding-server-side-rendering.json","ext":".json","sourceBase":"understanding-server-side-rendering.md","sourceExt":".md"},"content/_posts/learning-react-hooks-and-refactoring-class-component.json":{"title":"Learn React Hooks and refactoring Class Component","date":"Jul 07, 2019","author":"Farhan Tahir","category":"react","url":"learning-react-hooks-and-refactoring-class-component","dir":"content/_posts","base":"learning-react-hooks-and-refactoring-class-component.json","ext":".json","sourceBase":"learning-react-hooks-and-refactoring-class-component.md","sourceExt":".md"}},"sourceFileArray":["content/create-a-markdown-based-blog-with-Reactjs-Nextjs.md","content/learning-react-hooks-and-refactoring-class-component.md","content/understanding-server-side-rendering.md"]};
+module.exports = {"fileMap":{"content/_posts/understanding-server-side-rendering.json":{"title":"Understanding Server Side Rendering","date":"Feb 12, 2019","author":"Farhan Tahir","category":"javascript","url":"understanding-server-side-rendering","dir":"content/_posts","base":"understanding-server-side-rendering.json","ext":".json","sourceBase":"understanding-server-side-rendering.md","sourceExt":".md"},"content/_posts/create-a-markdown-based-blog-with-Reactjs-Nextjs.json":{"title":"Create a markdown based blog with React.js, Next.js","date":"Feb 12, 2019","author":"Farhan Tahir","category":"javascript","url":"create-a-markdown-based-blog-with-Reactjs-Nextjs","dir":"content/_posts","base":"create-a-markdown-based-blog-with-Reactjs-Nextjs.json","ext":".json","sourceBase":"create-a-markdown-based-blog-with-Reactjs-Nextjs.md","sourceExt":".md"},"content/_posts/learning-react-hooks-and-refactoring-class-component.json":{"title":"Learn React Hooks and refactoring Class Component","date":"Jul 07, 2019","author":"Farhan Tahir","category":"react","url":"learning-react-hooks-and-refactoring-class-component","dir":"content/_posts","base":"learning-react-hooks-and-refactoring-class-component.json","ext":".json","sourceBase":"learning-react-hooks-and-refactoring-class-component.md","sourceExt":".md"}},"sourceFileArray":["content/create-a-markdown-based-blog-with-Reactjs-Nextjs.md","content/learning-react-hooks-and-refactoring-class-component.md","content/understanding-server-side-rendering.md"]};
 
 /***/ }),
 
@@ -1312,7 +1312,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
 /* harmony import */ var _components_PostLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/PostLink */ "./components/PostLink.js");
 /* harmony import */ var _lib_content__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/content */ "./lib/content.js");
-var _jsxFileName = "/Users/farhan/projects/react-next-blog/pages/index.js";
+var _jsxFileName = "/Users/farhantahir/work/projects/blog/react-next-blog/pages/index.js";
 
 
 
@@ -1505,7 +1505,7 @@ var MainPage = function MainPage() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/farhan/projects/react-next-blog/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/farhantahir/work/projects/blog/react-next-blog/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
