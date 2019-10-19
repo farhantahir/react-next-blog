@@ -56,8 +56,7 @@ const MainPage = () => {
               PHP/MYSQL and at that time Laravel was new and hot, learned it by
               myself. Worked on many projects in Laravel and LAMP stack for US,
               UK based clients. Then back in 2017, I fall in love with JS.
-              Started taking courses, from many famous tutors, read books like
-              "you don't know JS" etc. Learned all about React, Redux, Node,
+              Started taking courses, from many famous authors. Learned all about React, Redux, Node,
               Express MongoDB in short all the cutting edge technologies around
               JS. Today, I'm not only working in JS, I'm sharing my knowledge by
               conducting trainings and by giving talks at local meetups.

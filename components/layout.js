@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
   return (
     <Container maxWidth='md' className={classes.container}>
       <Head>
-        <title>Farhan Tahir - Full Stack JS Developer</title>
+        <title>Farhan Tahir - Full Stack Developer</title>
         <link href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/a11y-dark.min.css' rel='stylesheet'/>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/javascript.min.js'></script>
